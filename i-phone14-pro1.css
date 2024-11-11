@@ -1,0 +1,147 @@
+/* Base Styles for All Screens */
+.iphone-14-pro-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  min-height: 852px;
+  padding: 5%;
+  text-align: center;
+  font-size: var(--font-size-md); /* Relative font size */
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}
+
+/* Generic child element */
+.iphone-14-pro-1-child {
+  position: relative;
+  margin: 0 auto;
+  width: 80%; /* Flexibly adjusts on smaller screens */
+  max-width: 150px;
+  height: auto;
+}
+
+/* Text elements with responsive font and positioning */
+.kontakt3 {
+  font-weight: 600;
+  font-size: 1.2em; /* Scales with container */
+}
+.poezije-2024 {
+  bottom: 33px;
+
+}
+.kontakt2,
+.rezervacije-070-877-5213 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+a {
+  margin: 0;
+  color: var(--color-crimson);
+}
+
+/* Contact container with adaptive layout */
+.kontakt-rezervacije-070-877-container1,
+.v-arobnem-ambientu1 {
+  position: relative;
+  margin-top: 10vh;
+  max-width: 90%; /* Stays within screen bounds */
+  text-align: center;
+  color: var(--color-black);
+  font-size: 1em;
+}
+
+.v-arobnem-ambientu1 {
+  font-weight: 300;
+  color: var(--color-dimgray);
+}
+
+/* Inner and item containers with flexible width */
+.iphone-14-pro-1-inner,
+.iphone-14-pro-1-item {
+  position: relative;
+  margin: 20px auto;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 360px;
+  height: auto;
+  padding: 15px;
+}
+
+/* Language selector with dynamic placement */
+.eng3,
+.slo3 {
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Small tablets and larger mobile phones */
+  .iphone-14-pro-1 {
+    padding: 4%;
+    font-size: var(--font-size-md); /* Adjusted font size */
+  }
+
+  .iphone-14-pro-1-child,
+  .kontakt-rezervacije-070-877-container1,
+  .v-arobnem-ambientu1,
+  .iphone-14-pro-1-inner,
+  .iphone-14-pro-1-item {
+    width: 100%;
+  }
+
+  .eng3, .slo3 {
+    font-size: 0.9em;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile adjustments for smaller screens */
+  .iphone-14-pro-1 {
+    font-size: var(--font-size-sm); /* Smaller base font size */
+  }
+
+  .iphone-14-pro-1-child {
+    width: 100%;
+    max-width: 130px;
+  }
+
+  .kontakt-rezervacije-070-877-container1,
+  .v-arobnem-ambientu1 {
+    max-width: 95%;
+  }
+
+  .iphone-14-pro-1-inner,
+  .iphone-14-pro-1-item {
+    padding: 10px;
+  }
+
+  .eng3, .slo3 {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 1280px) {
+  .web-1920-1-child,
+.web-1920-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+
+}
+.web-1920-1-item {
+  top: 26px;
+  left: 597px;
+  background-color: var(--color-white);
+  width: 727px;
+  height: 1029px;
+}}
