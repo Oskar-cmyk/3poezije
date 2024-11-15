@@ -16,6 +16,7 @@
   margin: 0 auto;
   width: 80%; /* Flexibly adjusts on smaller screens */
   height: auto;
+  max-width: 150px;
 }
 
 /* Text elements with responsive font and positioning */
