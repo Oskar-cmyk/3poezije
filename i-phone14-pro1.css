@@ -103,7 +103,11 @@ a {
   body {
     
     background-color: var(--color-gray-100);
-    
+    #rectangle{
+      width:200px;
+      height:100px;
+      background:blue;
+  }
   }
 }
 
