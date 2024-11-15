@@ -99,3 +99,11 @@ a {
     margin: 5px;
   }
 }
+@media (min-width: 1024px) {
+  .iphone-14-pro-1 {
+    
+    background-color: var(--color-gray-100);
+    
+  }
+}
+
