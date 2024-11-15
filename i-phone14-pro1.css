@@ -15,7 +15,6 @@
   position: relative;
   margin: 0 auto;
   width: 80%; /* Flexibly adjusts on smaller screens */
-  max-width: 150px;
   height: auto;
 }
 
@@ -46,7 +45,7 @@ a {
 .v-arobnem-ambientu1 {
   position: relative;
   margin-top: 10vh;
-  max-width: 90%; /* Stays within screen bounds */
+  max-width: 100%; /* Stays within screen bounds */
   text-align: center;
   color: var(--color-black);
   font-size: 1em;
@@ -66,7 +65,6 @@ a {
   border: 1px solid var(--color-dimgray);
   box-sizing: border-box;
   width: 90%;
-  max-width: 360px;
   height: auto;
   padding: 15px;
 }
