@@ -83,7 +83,6 @@ a {
 @media (max-width: 768px) {
   /* Small tablets and larger mobile phones */
   .iphone-14-pro-1 {
-    padding: 4%;
     font-size: var(--font-size-md); /* Adjusted font size */
   }
 
@@ -114,13 +113,10 @@ a {
 
   .kontakt-rezervacije-070-877-container1,
   .v-arobnem-ambientu1 {
-    max-width: 95%;
+    max-width: 90%;
   }
 
-  .iphone-14-pro-1-inner,
-  .iphone-14-pro-1-item {
-    padding: 10px;
-  }
+  
 
   .eng3, .slo3 {
     font-size: 0.8em;
