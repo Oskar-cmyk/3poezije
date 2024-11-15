@@ -55,6 +55,7 @@ a {
 .v-arobnem-ambientu1 {
   font-weight: 300;
   color: var(--color-dimgray);
+  margin: 10%;
 }
 
 /* Inner and item containers with flexible width */
@@ -102,14 +103,16 @@ a {
 @media (min-width: 1024px) {
   body {
     
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-200);
     
   }
-  #rectangle{
-    width:200px;
-    height:100px;
-    background:blue;
-    z-index: 1;
-  }
+ /* Base Styles for All Screens */
+.iphone-14-pro-1 {
+  
+  margin: 10%;
+  padding: 5%;
+  width: auto;
+  
+}
 }
 
