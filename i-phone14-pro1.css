@@ -100,7 +100,7 @@ a {
   }
 }
 @media (min-width: 1024px) {
-  .iphone-14-pro-1 {
+  body {
     
     background-color: var(--color-gray-100);
     
